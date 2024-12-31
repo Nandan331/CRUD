@@ -1,0 +1,48 @@
+.container{
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+.form-container{
+    width: 400px;
+    padding: 20px 30px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.form-container h1{
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+.input-box input{
+    outline: none;
+    border: none;
+    width: 100%;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius:30px ;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.button-signin{
+    width: 100%;
+}
+.button .btn{
+    width: 100%;
+}
+.form-container h6{
+    text-align: center;
+    margin: 10px;
+}
+
+.signup{
+    text-decoration: none;
+    color: white;
+}
+
